@@ -1,0 +1,39 @@
+/* Documentation: https://tailwindcss.com/docs/functions-and-directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Building button styles using existing Tailwind utilities */
+/* Documentation: https://v1.tailwindcss.com/components/buttons */
+
+.btn-blue {
+  @apply px-4 py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-600 focus:outline-none focus:bg-teal-600;
+}
+
+.btn-red {
+  @apply px-4 py-2 bg-rose-500 text-white rounded-lg hover:bg-rose-600 focus:outline-none focus:bg-rose-600;
+}
+
+.btn-green {
+  @apply px-4 py-2 bg-emerald-500 text-white rounded-lg hover:bg-emerald-600 focus:outline-none focus:bg-emerald-600;
+}
+
+.input-field {
+  @apply px-4 py-2 border border-gray-300 rounded-lg mr-2 focus:outline-none focus:border-emerald-900;
+}
+
+.header-style {
+  @apply text-3xl text-emerald-950 font-bold font-header mb-4;
+}
+
+.container-style {
+  @apply bg-stone-200 rounded-lg shadow-md mb-8;
+}
+
+.othertext-style {
+  @apply text-xl text-emerald-950 font-button mr-4;
+}
+
+.count-box {
+  @apply border border-emerald-900 border-opacity-75 rounded-lg bg-stone-200 px-4 py-2;
+}
