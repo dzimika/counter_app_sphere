@@ -1,4 +1,4 @@
-# Counter App Front End Challenge
+# Counter App Front End Challenge - COMPLETE
 
 ## Description
 
@@ -32,4 +32,7 @@ The app includes:
    ### `npm start`
 
 ## Comments
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) in multiple browsers to check the real-time update websockets functionality between clients.
+
 I hope you like my solution!
