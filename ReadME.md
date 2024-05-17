@@ -13,12 +13,18 @@ The app includes:
 1. Clone the repository:
    git clone https://github.com/dzimika/counter_app_sphere
 
-2. Navigate to the backend folder and start the server
+2. Navigate to the backend folder and install dependencies:
    cd backend
+   npm install
+
+3. Start the server:
    npm start
 
-3. Navigate to the frontend folder and start the React app:
+4. Navigate to the frontend folder and install dependencies:
    cd ../frontend
+   npm install
+
+5. Start the React app:
    npm start
 
 ## Comments
