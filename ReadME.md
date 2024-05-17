@@ -11,7 +11,7 @@ The app includes:
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/dzimika/counterapp_challenge.git
+   git clone https://github.com/dzimika/counter_app_sphere
 
 2. Navigate to the backend folder and start the server
    cd backend
